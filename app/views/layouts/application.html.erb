@@ -5,14 +5,43 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+  <style type="text/css">
+button {
+	padding:5px;
+	background-color: #ffffff;
+	border-radius:9px;
+}
+
+</style>
 </head>
 <body>
+	<!-- The bar at the top with the logo that links to the home page of the site. I need to change the color of the background. Link works. -->
 	<div ALIGN="middle", style="width:fill_parent;height:70px; background-color:black;border:1px solid #000;">
 	<%= link_to (image_tag "dcalogo.png"), "." %>
 </div>
 	<!--<a href="root"><%= image_tag "dcalogo.png" %></a> -->
 	<div style="width:fill_parent; height:15px; background-color:red;"> </div>
+
 <%= yield %>
 
+
+<!-- Trying to link to the facebook, twitter, and blogspot at the bottom of the page.-->
+<div style="text-align:center; width:fill_parent;">
+	<div class="btn-group" style="width:fill_parent">
+		<a href="http://facebook.com/defeatcollegeapps">
+			<button id="fbbutton" type="button">Facebook</button>
+		</a>
+		<a href="http://www.defeatcollegeapps.blogspot.com/">
+			<button type="button">Blogspot</button>
+			</a>
+		<a href="https://twitter.com/DefeatCollege">
+			<button type="button">Twitter</button>
+		</a>
+	</div>
+</div>
+
+
 </body>
+
 </html>
