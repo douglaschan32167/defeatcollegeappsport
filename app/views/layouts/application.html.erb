@@ -9,26 +9,37 @@
   <style type="text/css">
 button {
 	padding:5px;
-	background-color: #ffffff;
+	background-color:  #6292c2;
 	border-radius:9px;
+
+}
+button:hover {
+	background-color: #ffffff;
 }
 
 </style>
 </head>
 <body>
 	<!-- The bar at the top with the logo that links to the home page of the site. I need to change the color of the background. Link works. -->
-	<div ALIGN="middle", style="width:fill_parent;height:70px; background-color:black;border:1px solid #000;">
+	<div ALIGN="middle", style="width:fill_parent;height:70px; background-color:#2f2f2f;border:1px solid #000;">
 	<%= link_to (image_tag "dcalogo.png"), "." %>
 </div>
 	<!--<a href="root"><%= image_tag "dcalogo.png" %></a> -->
 	<div style="width:fill_parent; height:15px; background-color:red;"> </div>
+<!-- the outer box that will eventually contain the menu bar on the side and the actual content of the page. -->
+<div id="container-div" >
+	<div id="menu-bar", style="height:375px; width:212px; background-color:green; float:left;">The menu bar will go here</div>
 
-<%= yield %>
+<div id="campanile-image"><%= image_tag "campanileimg.jpg"%></div>
+	<%= yield %>
 
+</div>
 
+<!-- Note to self: this is a line across the page. Try to make it black.-->
+<hr></hr>
 <!-- Trying to link to the facebook, twitter, and blogspot at the bottom of the page.-->
 <div style="text-align:center; width:fill_parent;">
-	<div class="btn-group" style="width:fill_parent">
+	<div class="btn-group" style="width:fill_parent; margin:0 auto;">
 		<a href="http://facebook.com/defeatcollegeapps">
 			<button id="fbbutton" type="button">Facebook</button>
 		</a>
@@ -40,6 +51,10 @@ button {
 		</a>
 	</div>
 </div>
+<br></br>
+<div style="width:500px; margin:0 auto;"><bold>Or send us an Instant Message</bold></div>
+
+<hr></hr>
 
 
 </body>
