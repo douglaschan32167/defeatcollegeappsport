@@ -18,3 +18,5 @@ Things to do:
 		[]Adjust style of buttons
 		[x] Make sure links work
 	[x] Add picture of campanile
+[] Create homepage
+	[] Make picture slideshow of images

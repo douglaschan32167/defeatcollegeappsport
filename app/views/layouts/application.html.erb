@@ -25,12 +25,12 @@ button:hover {
 	<%= link_to (image_tag "dcalogo.png"), "." %>
 </div>
 	<!--<a href="root"><%= image_tag "dcalogo.png" %></a> -->
-	<div style="width:fill_parent; height:15px; background-color:red;"> </div>
+	<div id="topredbar"> </div>
 <!-- the outer box that will eventually contain the menu bar on the side and the actual content of the page. -->
 <div id="container-div" >
-	<div id="menu-bar", style="height:375px; width:212px; background-color:white; float:left; border-style:solid; border-width:1px; border-color:black;">
-		<div id="top bar", style ="width:fill_parent; background-color:#9f9f9f;">Menu</div>
-		<table style ="width:fill_parent; height:fill_parent">
+	<div id="menu-bar">
+		<div id="topbar">Menu</div>
+		<table style="height:95%">
 			<tr>
 				<td><%= link_to "Home", "."%></td>
 			</tr>
@@ -48,7 +48,7 @@ button:hover {
 			</tr>
 			<tr><td>Contact Us</td></tr>
 			<tr><td>External Resources</td></tr>
-			<tr><td>Blog</td></tr>
+			<tr><td><%= link_to "Blog", "http://www.defeatcollegeapps.blogspot.com"%></td></tr>
 
 
 
@@ -81,7 +81,6 @@ button:hover {
 		</a>
 	</div>
 </div>
-<br></br>
 <center><b>Or send us an Instant Message</b></center>
 <center>SKYPE: defeatcollegeapps  | QQ: 1822316903</center>
 <br></br>
