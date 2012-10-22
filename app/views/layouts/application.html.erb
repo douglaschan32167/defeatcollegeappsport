@@ -28,7 +28,33 @@ button:hover {
 	<div style="width:fill_parent; height:15px; background-color:red;"> </div>
 <!-- the outer box that will eventually contain the menu bar on the side and the actual content of the page. -->
 <div id="container-div" >
-	<div id="menu-bar", style="height:375px; width:212px; background-color:green; float:left;">The menu bar will go here</div>
+	<div id="menu-bar", style="height:375px; width:212px; background-color:white; float:left; border-style:solid; border-width:1px; border-color:black;">
+		<div id="top bar", style ="width:fill_parent; background-color:#9f9f9f;">Menu</div>
+		<table style ="width:fill_parent; height:fill_parent">
+			<tr>
+				<td><%= link_to "Home", "."%></td>
+			</tr>
+			<tr>
+				<td>About Us</td>
+			</tr>
+			<tr>
+				<td>Our Consultants</td>
+			</tr>
+			<tr>
+				<td>Why Us?</td>
+			</tr>
+			<tr>
+				<td>Services</td>
+			</tr>
+			<tr><td>Contact Us</td></tr>
+			<tr><td>External Resources</td></tr>
+			<tr><td>Blog</td></tr>
+
+
+
+
+		</table>
+		</div>
 
 <div id="campanile-image"><%= image_tag "campanileimg.jpg"%></div>
 	
