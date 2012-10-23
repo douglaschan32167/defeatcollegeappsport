@@ -25,36 +25,68 @@ button:hover {
 	<%= link_to (image_tag "dcalogo.png"), "." %>
 </div>
 	<!--<a href="root"><%= image_tag "dcalogo.png" %></a> -->
-	<div style="width:fill_parent; height:15px; background-color:red;"> </div>
+	<div id="topredbar"> </div>
 <!-- the outer box that will eventually contain the menu bar on the side and the actual content of the page. -->
 <div id="container-div" >
-	<div id="menu-bar", style="height:375px; width:212px; background-color:green; float:left;">The menu bar will go here</div>
+	<div id="menu-bar">
+		<div id="topbar">Menu</div>
+		<table style="height:95%">
+			<tr>
+				<td><%= link_to "Home", "."%></td>
+			</tr>
+			<tr>
+				<td>About Us</td>
+			</tr>
+			<tr>
+				<td>Our Consultants</td>
+			</tr>
+			<tr>
+				<td>Why Us?</td>
+			</tr>
+			<tr>
+				<td>Services</td>
+			</tr>
+			<tr><td>Contact Us</td></tr>
+			<tr><td>External Resources</td></tr>
+			<tr><td><%= link_to "Blog", "http://www.defeatcollegeapps.blogspot.com"%></td></tr>
+
+
+
+
+		</table>
+		</div>
 
 <div id="campanile-image"><%= image_tag "campanileimg.jpg"%></div>
+	
+
 	<%= yield %>
 
 </div>
 
+<div id="footer", style="width:fill_parent; clear:both;">
+	<br></br>
 <!-- Note to self: this is a line across the page. Try to make it black.-->
-<hr></hr>
+<center><hr style="width:900px;"></hr></center>
 <!-- Trying to link to the facebook, twitter, and blogspot at the bottom of the page.-->
-<div style="text-align:center; width:fill_parent;">
+<div style="text-align:center; width:fill_parent; float:center;">
 	<div class="btn-group" style="width:fill_parent; margin:0 auto;">
 		<a href="http://facebook.com/defeatcollegeapps">
 			<button id="fbbutton" type="button">Facebook</button>
 		</a>
 		<a href="http://www.defeatcollegeapps.blogspot.com/">
 			<button type="button">Blogspot</button>
-			</a>
+		</a>
 		<a href="https://twitter.com/DefeatCollege">
 			<button type="button">Twitter</button>
 		</a>
 	</div>
 </div>
+<center><b>Or send us an Instant Message</b></center>
+<center>SKYPE: defeatcollegeapps  | QQ: 1822316903</center>
 <br></br>
-<div style="width:500px; margin:0 auto;"><bold>Or send us an Instant Message</bold></div>
-
-<hr></hr>
+<center><b>Contact us at administrator@defeatcollegeapps.com. All rights reserved. Published in California, 2011</b></center>
+<center><hr style="width:900px;"></hr></center>
+</div>
 
 
 </body>

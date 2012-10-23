@@ -1,0 +1,22 @@
+Things to do:
+[]Make pages:
+	[] About Us
+	[] Our Consultants
+	[] Why Us?
+	[] Services
+	[] Contact Us
+	[] External Resources
+	[] Blog
+[] Implement Login system
+	[] Make model for userlogin
+	[] Make encryption algorithm
+
+[] Finish general application layout
+	[]Make menu bar fill the div
+		[]Make menu pop out on hover
+	[] Link to facebook, twitter, blogspot
+		[]Adjust style of buttons
+		[x] Make sure links work
+	[x] Add picture of campanile
+[] Create homepage
+	[] Make picture slideshow of images
