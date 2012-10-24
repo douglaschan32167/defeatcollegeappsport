@@ -12,11 +12,11 @@
 
 <body>
 	<div id="everythingdiv">
-		<div id="backgrounddiv" onLoad="fillbackground();">
+		<div id="backgrounddiv">
 			
 		</div>
 		<!--
-		<script type="text/javascript" charset="utf-8">
+		<script language="javascript" charset="utf-8">
 function fillbackground() {
 	var i = 0;
 	var theelt = document.getElementById('backgrounddiv');
@@ -24,19 +24,20 @@ function fillbackground() {
 	var thehtml = document.getElementById('backgrounddiv').innerHTML;
 	thehtml += "<div> hi </div>";
 	for(i = 0; i < thewidth; i += 3) {
-		thehtml += "<div>\<\%\= image_tag 'background.jpg'\%\></div> ";
+		thehtml += "<div><img alt='image not found' src='/assets/background.jpg' /></div> ";
 	}
+	document.getElementById('backgrounddiv').innerHTML = thehtml;
 }
-fillbackground();
 </script>
 -->
 	<!-- The bar at the top with the logo that links to the home page of the site. I need to change the color of the background. Link works. -->
-	<div ALIGN="middle", style="width:100%;height:70px; background-color:#2f2f2f;border:1px solid #000;">
+	<div ALIGN="middle">
 	<%= link_to (image_tag "dcalogo.png"), "." %>
 	</div>
 	<!--<a href="root"><%= image_tag "dcalogo.png" %></a> -->
 	<div id="topredbar"> </div>
 <!-- the outer box that will eventually contain the menu bar on the side and the actual content of the page. -->
+	<br></br>
 <div id="container-div" >
 	<div id="menu-bar">
 		<div id="topbar">Menu</div>
