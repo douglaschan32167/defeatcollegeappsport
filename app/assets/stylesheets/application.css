@@ -72,3 +72,8 @@ body {
 	background-image:url("/assets/background.jpg");
 	background-repeat:repeat-x;
 }
+
+#dcalogo {
+	position:relative;
+	top:12px;
+}
