@@ -1,2 +1,17 @@
 <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
+<div id="slideshow">
+	<div><img src="/assets/bayview.jpg" alt="bayview fails"></div>
+	<div><img src="/assets/campanileimg.jpg" alt="campanile fails"></div>
+	<script type="text/javascript">
+	$(function() {
+    
+    $('#slideshow').cycle({ 
+        fx: 'fade',
+        speed: 500,
+        timeout: 2000
+    });
+    
+});
+	</script>
+</div>
