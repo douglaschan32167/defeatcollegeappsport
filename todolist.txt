@@ -19,4 +19,6 @@ Things to do:
 		[x] Make sure links work
 	[x] Add picture of campanile
 [] Create homepage
-	[] Make picture slideshow of images
+	[x] Make picture slideshow of images
+		[]Add more images
+		[] Get rid of weird code that appears in between pictures.
