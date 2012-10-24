@@ -60,13 +60,18 @@ body {
 }
 
 #campanile-image {
+	position: relative;
+	right:200px;
 
 }
 #contentwithoutmenu{
+	position:relative;
+	left:215px;
 	
 }
 #container-div {
 	width:1000px;
+	height:100%;
 }
 #everythingdiv {
 	background-image:url("/assets/background.jpg");
