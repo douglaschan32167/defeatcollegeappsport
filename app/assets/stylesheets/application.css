@@ -39,6 +39,7 @@ body {
 }
 #topbar {
 	width:100%;
+
 	/*background-color:#9f9f9f;*/
 }
 
@@ -54,9 +55,14 @@ body {
 	height:375px;
 	width:212px;
 	float:left;
+	position:relative;
+	left:200px;
 	border-style:solid;
 	border-width:1px;
 	border-color:black;
+}
+
+#menutable{
 }
 
 #campanile-image {
@@ -66,7 +72,7 @@ body {
 }
 #contentwithoutmenu{
 	position:relative;
-	left:215px;
+	left:415px;
 	
 }
 #container-div {
