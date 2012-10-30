@@ -14,11 +14,11 @@ Things to do:
 [] Finish general application layout
 	[]Make menu bar fill the div
 		[]Make menu pop out on hover
-	[] Link to facebook, twitter, blogspot
+	[x] Link to facebook, twitter, blogspot
 		[]Adjust style of buttons
 		[x] Make sure links work
 	[x] Add picture of campanile
 [] Create homepage
 	[x] Make picture slideshow of images
 		[]Add more images
-		[] Get rid of weird code that appears in between pictures.
+		[x] Get rid of weird code that appears in between pictures.
