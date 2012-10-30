@@ -1,0 +1,30 @@
+#collegeconstext {
+	position:relative;
+	right: 200px;
+}
+
+#slideshow {
+	width:400px;
+	height:400px;
+	left:15px;
+}
+
+#dcaisparagraph {
+	width:300px;
+	height:400px;
+	position:relative;
+	bottom:400px;
+	left:440px;
+	font-family: "lucida sans", verdana, arial, sans-serif;
+	font-size:15px;
+}
+#startnowbuttondiv{
+	width:50%;
+	float:left;
+	float:top;
+}
+#learnmorebuttondiv{
+	width:50%;
+	float:right;
+	float:top;
+}
